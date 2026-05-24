@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local-only datasets (too large for git; user has them locally)
+datasets/
+*.parquet
+*.csv
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc

@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "model": "baseline_ridge",
+      "pearson_rho": 0.25915290920014306,
+      "mae": 0.7637349871369832,
+      "n": 60000
+    },
+    {
+      "model": "regime_mixture_ridge",
+      "pearson_rho": 0.26561735836076533,
+      "mae": 0.7611593760805937,
+      "n": 60000
+    },
+    {
+      "model": "baseline_on_calm",
+      "pearson_rho": 0.22358218900286075,
+      "mae": 0.5658195878632613,
+      "n": 29507
+    },
+    {
+      "model": "baseline_on_volatile",
+      "pearson_rho": 0.2731592171696827,
+      "mae": 0.9552507345665476,
+      "n": 30493
+    },
+    {
+      "model": "mixture_on_calm",
+      "pearson_rho": 0.23861199068973915,
+      "mae": 0.5529135426463894,
+      "n": 29507
+    },
+    {
+      "model": "mixture_on_volatile",
+      "pearson_rho": 0.2735567741455356,
+      "mae": 0.9626715200855478,
+      "n": 30493
+    }
+  ],
+  "latency": {
+    "ridge_us_per_decision": 434.6282000042265,
+    "finagent_typical_s_per_decision_reported": 2.0,
+    "lob_hft_budget_us": 100.0
+  },
+  "threshold": 0.2944306962225747
+}
